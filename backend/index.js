@@ -1,7 +1,8 @@
 const express = require('express')
 const app = express()
-
 const port = process.env.PORT || 5000
+const chat = require('.data/data.js')
+
 
 
 
