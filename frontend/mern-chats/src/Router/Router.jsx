@@ -1,5 +1,6 @@
 import {createBrowserRouter} from 'react-router-dom'
 import Main from '../layout/Main'
+import ChatPage from '../page/ChatPage/ChatPage'
 
 const router = createBrowserRouter([
     {
@@ -8,7 +9,7 @@ const router = createBrowserRouter([
         children:[
             {
                 path:'/',
-                element:''
+                element:<ChatPage></ChatPage>
             }
         ]
     }

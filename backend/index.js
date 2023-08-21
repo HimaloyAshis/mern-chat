@@ -4,6 +4,11 @@ const app = express()
 const port = process.env.PORT || 5000
 const chat = require("../backend/data/data")
 
+const cors  = require('cors')
+
+
+app.use(cors())
+
 
 
 
