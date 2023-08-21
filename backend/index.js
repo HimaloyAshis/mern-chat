@@ -17,6 +17,7 @@ app.get('/app/chat', (req, res)=>{
 
 
 app.get('/app/chat/:id', (req, res)=>{
+    
     const singleChat = chat.find((c)=>c._id === req.params.id)
     res.send(singleChat)
 })
