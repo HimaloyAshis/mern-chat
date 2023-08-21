@@ -8,7 +8,9 @@ import router from './Router/Router.jsx'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ChakraProvider>
-      <RouterProvider router={router}></RouterProvider>
+      <div className=''>
+        <RouterProvider router={router}></RouterProvider>
+      </div>
     </ChakraProvider>
   </React.StrictMode>,
 )
