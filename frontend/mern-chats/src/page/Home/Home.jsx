@@ -22,6 +22,7 @@ const Home = () => {
             </Box>
 
             <Box
+                style={{marginBottom:15}}
                 bg={'white'}
                 w={'100%'}
                 borderRadius={'lg'}
