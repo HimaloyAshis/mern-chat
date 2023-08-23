@@ -27,10 +27,10 @@ const Home = () => {
                 borderRadius={'lg'}
                 borderWidth={'1px'}
                 p={'1rem'}>
-                <Tabs variant='enclosed'>
-                    <TabList>
-                        <Tab>Sign Up</Tab>
-                        <Tab>Login</Tab>
+                <Tabs variant='soft-rounded'>
+                    <TabList mb={'1rem'}>
+                        <Tab width={'50%'}>Sign Up</Tab>
+                        <Tab width={'50%'}>Login</Tab>
                     </TabList>
                     <TabPanels>
                         <TabPanel>
